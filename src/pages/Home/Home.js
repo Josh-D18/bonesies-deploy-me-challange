@@ -18,7 +18,7 @@ export default function Home() {
     <div className="home">
       <PopUp name={name} />
       <form className="home__form" onSubmit={handleSubmit}>
-        <h1 className="home__title">I is Home Page!</h1>
+        <h1 className="home__title">This is Doge Page!</h1>
         <label className="home__form-label">
           Type In Your Name
           <InputBar setUserInput={setUserInput} userInput={userInput} />
